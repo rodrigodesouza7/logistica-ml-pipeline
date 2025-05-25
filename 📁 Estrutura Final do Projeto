@@ -1,0 +1,24 @@
+📁 Estrutura Final do Projeto – dataflow-sentinel
+
+dataflow-sentinel/
+├── data/
+│   └── dataflow_transformado.parquet       # Dados prontos para modelagem
+│
+├── models/
+│   └── dataflow_modelo_status.pkl          # Modelo Random Forest treinado
+│
+├── notebooks/
+│   ├── 01_setup_ingestao.ipynb             # Ingestão e análise inicial
+│   ├── 02_validacao_dados.ipynb            # Validação técnica com Pandera
+│   ├── 03_transformacao_pipeline.ipynb     # Feature engineering
+│   ├── 04_modelo_consumo.ipynb             # Treinamento e avaliação do modelo
+│   ├── 05A_observabilidade_pipeline.ipynb  # Health-check e logs técnicos
+│   ├── 05B_qualidade_visual_dados.ipynb    # Diagnóstico visual do dataset
+│   └── 06_dashboard_streamlit_app.ipynb    # Protótipo de dashboard (Streamlit)
+│
+├── app/
+│   └── 06_dashboard_streamlit_app.py       # Versão standalone para execução local
+│
+├── requirements.txt                        # Dependências do projeto
+├── README.md                               # Documentação geral e instruções
+└── LICENSE                                 # Licença MIT
