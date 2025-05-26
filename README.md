@@ -1,10 +1,14 @@
-# logistica-ml-pipeline
-Pipeline de ML para prever status logístico com foco em arquitetura de dados. Simula ingestão, validação e treino de modelo Random Forest usando dados transformados. Inclui observabilidade técnica e geração de dashboards interativos para análise e rastreabilidade.
-
 # 🚚 Dataflow Sentinel – Status Logístico por Machine Learning
 
 Pipeline completo de Machine Learning focado em **arquitetura de dados**, simulando um fluxo produtivo de **previsão do status logístico** de entregas. Utiliza Random Forest como modelo preditivo, com observabilidade técnica e dashboards interativos.
 
+# logistica-ml-pipeline
+Pipeline de ML para prever status logístico com foco em arquitetura de dados. Simula ingestão, validação e treino de modelo Random Forest usando dados transformados. Inclui observabilidade técnica e geração de dashboards interativos para análise e rastreabilidade.
+
+# 🧪 Monitoramento de Qualidade de Dados e Detecção de Anomalias
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)]()
 ---
 
 ## 📊 Objetivo
@@ -78,15 +82,22 @@ F1-score: 0.59
 - Data lineage com OpenLineage ou Marquez
 
 ---
+👤 Sobre o Autor
+Rodrigo de Souza Silva
+Profissional de Tecnologia da Informação com formação em Sistemas de Informação e pós-graduação em Data Science & Machine Learning. Atua no desenvolvimento de projetos práticos com Python, APIs REST, automações e análise de dados, aplicando os conhecimentos adquiridos em formação técnica e cursos especializados.
 
-## 📜 Licença
+Apaixonado por dados, boas práticas de código e soluções que unem lógica, organização e utilidade real.
 
-Distribuído sob a licença **MIT**.
+- [LinkedIn](https://www.linkedin.com/in/rodrigodesouzasilva)  
+- [GitHub](https://github.com/rodrigodesouza7)
 
 ---
 
-## 👨‍💻 Autor
+## 📜  Licença
 
-**Rodrigo de Souza**  
+Este projeto está licenciado sob os termos da licença [MIT](https://opensource.org/licenses/MIT).  
+Você pode usar, modificar e distribuir com os devidos créditos ao autor.
+
+
 
 
